@@ -1,0 +1,27 @@
+{
+  "unversionedId": "setting-up-atlas/create-your-first-datasets",
+  "id": "setting-up-atlas/create-your-first-datasets",
+  "title": "Loading data into MyCluster",
+  "description": "Intercating with a MongoDB cluster can be done in a wide variaty of ways  including the following:",
+  "source": "@site/docs/setting-up-atlas/create-your-first-datasets.md",
+  "sourceDirName": "setting-up-atlas",
+  "slug": "/setting-up-atlas/create-your-first-datasets",
+  "permalink": "/docs/setting-up-atlas/create-your-first-datasets",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setting-up-atlas/create-your-first-datasets.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get Started with MongoDB Atlas",
+    "permalink": "/docs/setting-up-atlas/get-started-atlas"
+  },
+  "next": {
+    "title": "Access Your Cluster - Excersize Two",
+    "permalink": "/docs/category/access-your-cluster---excersize-two"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "indexing-basics/indexing-basics",
+  "id": "indexing-basics/indexing-basics",
+  "title": "Indexing Basics",
+  "description": "In any database, indexes support the efficient execution of queries. Without them, the database must scan every document in a collection or table to select those that match the query statement. If an appropriate index exists for a query, the database can use the index to limit the number of documents it must inspect.",
+  "source": "@site/docs/indexing-basics/indexing-basics.md",
+  "sourceDirName": "indexing-basics",
+  "slug": "/indexing-basics/",
+  "permalink": "/docs/indexing-basics/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/indexing-basics/indexing-basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Explain Plans",
+    "permalink": "/docs/indexing-basics/explain-plans"
+  }
+}

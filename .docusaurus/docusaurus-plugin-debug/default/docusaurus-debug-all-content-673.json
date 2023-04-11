@@ -1,0 +1,286 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/binzhou/code/workshops/atlas-workshop/sidebars.js",
+          "contentPath": "/Users/binzhou/code/workshops/atlas-workshop/docs",
+          "contentPathLocalized": "/Users/binzhou/code/workshops/atlas-workshop/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "access-your-cluster/access-the-atlas-cluster",
+              "id": "access-your-cluster/access-the-atlas-cluster",
+              "title": "Access your cluster",
+              "description": "Data Explorer is enabled by default and is accsessible via the Browse Collections button on the cluster tile, or Collections tab on the cluster view.",
+              "source": "@site/docs/access-your-cluster/access-the-atlas-cluster.md",
+              "sourceDirName": "access-your-cluster",
+              "slug": "/access-your-cluster/access-the-atlas-cluster",
+              "permalink": "/docs/access-your-cluster/access-the-atlas-cluster",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/access-your-cluster/access-the-atlas-cluster.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Access Your Cluster - Excersize Two",
+                "permalink": "/docs/category/access-your-cluster---excersize-two"
+              },
+              "next": {
+                "title": "Indexing and Explain Plans - Excersize Three",
+                "permalink": "/docs/category/indexing-and-explain-plans---excersize-three"
+              }
+            },
+            {
+              "unversionedId": "indexing-basics/explain-plans",
+              "id": "indexing-basics/explain-plans",
+              "title": "Explain Plans",
+              "description": "When compass is open on sample_mflix database and set on movies collection, lets run a query to work with and analyse its explain plan:",
+              "source": "@site/docs/indexing-basics/explain-plans.md",
+              "sourceDirName": "indexing-basics",
+              "slug": "/indexing-basics/explain-plans",
+              "permalink": "/docs/indexing-basics/explain-plans",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/indexing-basics/explain-plans.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Indexing and Explain Plans - Excersize Three",
+                "permalink": "/docs/category/indexing-and-explain-plans---excersize-three"
+              },
+              "next": {
+                "title": "Indexing Basics",
+                "permalink": "/docs/indexing-basics/"
+              }
+            },
+            {
+              "unversionedId": "indexing-basics/indexing-basics",
+              "id": "indexing-basics/indexing-basics",
+              "title": "Indexing Basics",
+              "description": "In any database, indexes support the efficient execution of queries. Without them, the database must scan every document in a collection or table to select those that match the query statement. If an appropriate index exists for a query, the database can use the index to limit the number of documents it must inspect.",
+              "source": "@site/docs/indexing-basics/indexing-basics.md",
+              "sourceDirName": "indexing-basics",
+              "slug": "/indexing-basics/",
+              "permalink": "/docs/indexing-basics/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/indexing-basics/indexing-basics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Explain Plans",
+                "permalink": "/docs/indexing-basics/explain-plans"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Workshop Intro",
+              "description": "Welcome to the Atlas Workshop for AWS DevAx Day.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Get started with Atlas - Excersize One",
+                "permalink": "/docs/category/get-started-with-atlas---excersize-one"
+              }
+            },
+            {
+              "unversionedId": "setting-up-atlas/create-your-first-datasets",
+              "id": "setting-up-atlas/create-your-first-datasets",
+              "title": "Loading data into MyCluster",
+              "description": "Intercating with a MongoDB cluster can be done in a wide variaty of ways  including the following:",
+              "source": "@site/docs/setting-up-atlas/create-your-first-datasets.md",
+              "sourceDirName": "setting-up-atlas",
+              "slug": "/setting-up-atlas/create-your-first-datasets",
+              "permalink": "/docs/setting-up-atlas/create-your-first-datasets",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setting-up-atlas/create-your-first-datasets.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get Started with MongoDB Atlas",
+                "permalink": "/docs/setting-up-atlas/get-started-atlas"
+              },
+              "next": {
+                "title": "Access Your Cluster - Excersize Two",
+                "permalink": "/docs/category/access-your-cluster---excersize-two"
+              }
+            },
+            {
+              "unversionedId": "setting-up-atlas/get-started-atlas",
+              "id": "setting-up-atlas/get-started-atlas",
+              "title": "Get Started with MongoDB Atlas",
+              "description": "MongoDB Atlas is a developer data platform, integrating a multi-cloud database with a diverse set of data services. Atlas simplifies database deployment and management while enabling modern data-driven application development.",
+              "source": "@site/docs/setting-up-atlas/get-started-atlas.md",
+              "sourceDirName": "setting-up-atlas",
+              "slug": "/setting-up-atlas/get-started-atlas",
+              "permalink": "/docs/setting-up-atlas/get-started-atlas",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setting-up-atlas/get-started-atlas.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get started with Atlas - Excersize One",
+                "permalink": "/docs/category/get-started-with-atlas---excersize-one"
+              },
+              "next": {
+                "title": "Loading data into MyCluster",
+                "permalink": "/docs/setting-up-atlas/create-your-first-datasets"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Get started with Atlas - Excersize One",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "setting-up-atlas/get-started-atlas"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "setting-up-atlas/create-your-first-datasets"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "10 min setup of the Atlas initial project and cluster.",
+                  "slug": "/category/get-started-with-atlas---excersize-one",
+                  "permalink": "/docs/category/get-started-with-atlas---excersize-one"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Access Your Cluster - Excersize Two",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "access-your-cluster/access-the-atlas-cluster"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "10 min excersize to access and get to know your cluster access points. This section highlight options like 'Data Explorer', 'Compass' and 'MongoDB Shell'",
+                  "slug": "/category/access-your-cluster---excersize-two",
+                  "permalink": "/docs/category/access-your-cluster---excersize-two"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Indexing and Explain Plans - Excersize Three",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "indexing-basics/explain-plans"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "indexing-basics/indexing-basics"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "20 min excersize to analyze queries and build optimal indexes. ",
+                  "slug": "/category/indexing-and-explain-plans---excersize-three",
+                  "permalink": "/docs/category/indexing-and-explain-plans---excersize-three"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-lunr-search": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,102 @@
+{
+  "/__docusaurus/debug-682": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    }
+  },
+  "/__docusaurus/debug/config-448": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    }
+  },
+  "/__docusaurus/debug/content-719": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-d7d": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    }
+  },
+  "/__docusaurus/debug/metadata-756": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    }
+  },
+  "/__docusaurus/debug/registry-73c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    }
+  },
+  "/__docusaurus/debug/routes-3ca": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-0-da-669"
+    }
+  },
+  "/markdown-page-0f5": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-paged-7-c-b44"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-d5f": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---docs-176-fdb"
+    },
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/access-your-cluster/access-the-atlas-cluster-3f7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-access-your-cluster-access-the-atlas-cluster-4-b-3-131"
+  },
+  "/docs/category/access-your-cluster---excersize-two-29a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-access-your-cluster-excersize-two-668-a7c"
+  },
+  "/docs/category/get-started-with-atlas---excersize-one-722": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-get-started-with-atlas-excersize-onecef-83f"
+  },
+  "/docs/category/indexing-and-explain-plans---excersize-three-f42": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-indexing-and-explain-plans-excersize-three-019-670"
+  },
+  "/docs/indexing-basics/-23f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-indexing-basics-308-9f4"
+  },
+  "/docs/indexing-basics/explain-plans-6a7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-indexing-basics-explain-plans-273-abd"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/setting-up-atlas/create-your-first-datasets-891": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-atlas-create-your-first-datasets-928-90d"
+  },
+  "/docs/setting-up-atlas/get-started-atlas-787": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-atlas-get-started-atlasec-7-13a"
+  },
+  "/-1fc": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-paged-7-c-b44"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

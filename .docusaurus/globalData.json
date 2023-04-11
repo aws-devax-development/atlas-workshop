@@ -1,0 +1,81 @@
+{
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1681201650169.json",
+        "lunrIndex": "lunr-index-1681201650169.json"
+      }
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "access-your-cluster/access-the-atlas-cluster",
+              "path": "/docs/access-your-cluster/access-the-atlas-cluster",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "indexing-basics/explain-plans",
+              "path": "/docs/indexing-basics/explain-plans",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "indexing-basics/indexing-basics",
+              "path": "/docs/indexing-basics/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-atlas/create-your-first-datasets",
+              "path": "/docs/setting-up-atlas/create-your-first-datasets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-atlas/get-started-atlas",
+              "path": "/docs/setting-up-atlas/get-started-atlas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/get-started-with-atlas---excersize-one",
+              "path": "/docs/category/get-started-with-atlas---excersize-one",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/access-your-cluster---excersize-two",
+              "path": "/docs/category/access-your-cluster---excersize-two",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/indexing-and-explain-plans---excersize-three",
+              "path": "/docs/category/indexing-and-explain-plans---excersize-three",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
