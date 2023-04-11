@@ -3,48 +3,13 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '682'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '448'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '719'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'd7d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '756'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '73c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '3ca'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '0f5'),
+    component: ComponentCreator('/markdown-page', 'e60'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd5f'),
+    component: ComponentCreator('/docs', 'e8d'),
     routes: [
       {
         path: '/docs/access-your-cluster/access-the-atlas-cluster',
@@ -104,7 +69,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '1fc'),
+    component: ComponentCreator('/', '72a'),
     exact: true
   },
   {

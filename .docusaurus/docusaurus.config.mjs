@@ -10,7 +10,7 @@ export default {
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "plugins": [
-    "/Users/binzhou/code/workshops/atlas-workshop/node_modules/docusaurus-lunr-search/src/index.js"
+    "/Users/binzhou/code/workshops/atlas-workshop-devax/node_modules/docusaurus-lunr-search/src/index.js"
   ],
   "organizationName": "facebook",
   "projectName": "docusaurus",
@@ -29,11 +29,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/binzhou/code/workshops/atlas-workshop/sidebars.js",
+          "sidebarPath": "/Users/binzhou/code/workshops/atlas-workshop-devax/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/binzhou/code/workshops/atlas-workshop/src/css/custom.css"
+          "customCss": "/Users/binzhou/code/workshops/atlas-workshop-devax/src/css/custom.css"
         }
       }
     ]
@@ -52,11 +52,6 @@ export default {
           "docId": "intro",
           "position": "left",
           "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
         },
         {
           "href": "https://github.com/facebook/docusaurus",
@@ -98,10 +93,6 @@ export default {
         {
           "title": "More",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/facebook/docusaurus"
