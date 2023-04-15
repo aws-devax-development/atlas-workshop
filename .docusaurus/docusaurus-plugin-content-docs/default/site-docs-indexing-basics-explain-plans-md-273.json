@@ -1,12 +1,12 @@
 {
   "unversionedId": "indexing-basics/explain-plans",
   "id": "indexing-basics/explain-plans",
-  "title": "Explain Plans",
-  "description": "When compass is open on sample_mflix database and set on movies collection, lets run a query to work with and analyse its explain plan:",
+  "title": "1.索引的执行计划",
+  "description": "当用Compass在sample_mflix数据库上打开并设置为movies集合时，让我们运行一个查询来分析它的执行计划:",
   "source": "@site/docs/indexing-basics/explain-plans.md",
   "sourceDirName": "indexing-basics",
   "slug": "/indexing-basics/explain-plans",
-  "permalink": "/docs/indexing-basics/explain-plans",
+  "permalink": "/atlas-workshop/docs/indexing-basics/explain-plans",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/indexing-basics/explain-plans.md",
   "tags": [],
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Indexing and Explain Plans - Excersize Three",
-    "permalink": "/docs/category/indexing-and-explain-plans---excersize-three"
+    "title": "练习C: 索引与执行计划",
+    "permalink": "/atlas-workshop/docs/category/练习c-索引与执行计划"
   },
   "next": {
-    "title": "Indexing Basics",
-    "permalink": "/docs/indexing-basics/"
+    "title": "2.索引基础知识",
+    "permalink": "/atlas-workshop/docs/indexing-basics/"
   }
 }

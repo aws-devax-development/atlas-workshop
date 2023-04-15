@@ -8,12 +8,12 @@ export default {
   "tagline": "MongoDB Atlas Workshop for AWS DevAx Day",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "baseUrl": "/atlas-workshop/",
   "plugins": [
     "/Users/binzhou/code/workshops/atlas-workshop-devax/node_modules/docusaurus-lunr-search/src/index.js"
   ],
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "aws-devax-development",
+  "projectName": "atlas-workshop",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -63,43 +63,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
+      "links": [],
       "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
     },
     "prism": {

@@ -4,16 +4,16 @@ sidebar_position: 2
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Loading data into MyCluster
+# 2.加载样例数据到 MyCluster
 
-Intercating with a MongoDB cluster can be done in a wide variaty of ways  **including the following**:
+与 MongoDB 集群进行交互可以通过多种方式完成，包括  **以下几种方式**:
 
-- One of the **Drivers**
-- The **MongoDB Shell**
-- **MongoDB Compass**
-- The Atlas **Data Explorer**
+- 某一种开发语言的 **驱动**
+- 命令行工具 **MongoDB Shell**
+- GUI 工具 **MongoDB Compass**
+- Atlas **Data Explorer**
 
-To better understand the MongoDB data structers and the possible intercations we can load **Sample Data** into our cluster.
+为了更好地了解 MongoDB 数据结构和可能的交互方式，我们可以将**Sample Data** 加载到我们的集群中.
 
 
 <!-- 
@@ -23,39 +23,36 @@ This section can be skipped if you used the CLI setup as it was done for you alr
 :::
 -->
 
-### Load the sample data set into your cluster
+### 将示例数据集加载到您的集群中
 :::tip
-Estimated completion time: 5 minutes
+预计完成时间：5分钟
 :::
 
-Atlas provides sample data you can load into your Atlas database deployments. 
+Atlas 提供了可加载到 Atlas 数据库部署中的示例数据。
 
-For a list of datasets in the sample and a description of each, see 
-[Available Sample Datasets](https://www.mongodb.com/docs/atlas/sample-data/#std-label-available-sample-datasets)
-. Each dataset page contains information on the databases, collections, and indexes in the dataset.
-
+有关示例数据集列表及其各自的描述，请参见可用的[示例数据集](https://www.mongodb.com/docs/atlas/sample-data/#std-label-available-sample-datasets)。每个数据集页面都包含数据集中的数据库、集合和索引的信息。
 <!-- 
 #### Procedure
 You can load sample data into your Atlas database deployment in several ways. You can load sample data from the Atlas UI Database Deployments view, or use the Atlas CLI.
 -->
 
-### Atlas UI
+### 通过Atlas UI操作
 
-1. Navigate to your **Database Deployments** view.
-In the left navigation pane in Atlas, click **Database**.
+1. 转到**数据库部署**视图。
+在 Atlas 中的左侧导航窗格中，单击 **Database**。
 
-1. Open the Load Sample Dataset dialog.
-Locate the database deployment where you want to load sample data.
-Click the Ellipses **(...)** button for your database deployment.
+2. 打开**加载示例数据集**对话框。
+找到您要加载示例数据的数据库部署位置。
+单击数据库部署的省略号 **(...)** 按钮。
 
-1. Click **Load Sample Dataset**.
+3. 单击 **Load Sample Dataset**。
 
 :::tip
-If prompted, select all available datasets.
+如果提示，选择所有可用数据集。
 :::
 
-4. In the dialog, click **Load Sample Dataset**
-The dialog closes and Atlas begins loading your sample dataset into your database deployment.
+4. 在对话框中，单击 **Load Sample Dataset**
+对话框关闭后，Atlas 开始将示例数据集加载到您的数据库部署中。
 
   <img
     alt="Cluster type selection page highlighting the shared cluster option"
@@ -63,7 +60,8 @@ The dialog closes and Atlas begins loading your sample dataset into your databas
     border="1px"
     width="700"
   /> 
-5. View your sample data. To view your sample data by click your database deployment's Browse Collections button. You should see the following databases in your database deployment:
+
+5. 查看您的示例数据。要通过单击数据库部署的浏览集合按钮查看您的示例数据。您应该在您的数据库部署中看到以下数据库：
 
 ```
 sample_airbnb
@@ -74,5 +72,4 @@ sample_supplies
 sample_training
 sample_weatherdata
 ```
-For details on the collections and documents included in these datasets, see 
-Available Sample Datasets.
+有关包含在这些数据集中的集合和文档的详细信息，请参见可用的示例数据集。

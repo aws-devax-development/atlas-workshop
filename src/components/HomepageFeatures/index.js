@@ -4,29 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Multi-Cloud, Multi-Region Database Service',
+    title: '真正的多云、多区域的云数据库服务',
     illustration: 'img/database.png',
     description: (
       <>
-        Deploy your applications to multiple cloud platforms across multiple regions on AWS, Azure and Google Cloud. 
+        将您的应用程序部署到AWS、Azure和谷歌cloud上多个区域的多个云平台上，
+        目前Atlas已经支持全球超过100个公有云Region。
       </>
     ),
   },
   {
-    title: 'Fully-Integrated Developer Data Platform',
+    title: '完全集成的开发者数据平台',
     illustration: 'img/app-services.png',
     description: (
       <>
-        Build and run production-ready apps on top of Atlas in a fraction of the time with fully managed cloud services such as Functions, Triggers, and APIs.
+        使用完全托管的云服务(如函数、触发器和api)，仅需少量的时间就可以在Atlas上构建和运行可用于生产的应用程序。
+        
       </>
     ),
   },
   {
-    title: 'Support for Any Language or Framework',
+    title: '支持任何语言或开发框架',
     illustration: 'img/analytics.png',
     description: (
       <>
-        Leverage the rich query api over dozens of drivers and languages, including Node.js, Java, Python, and Go.
+        在数十种驱动程序和语言上利用丰富的查询api，包括Node.js, Java, Python和Go。
+
       </>
     ),
   },

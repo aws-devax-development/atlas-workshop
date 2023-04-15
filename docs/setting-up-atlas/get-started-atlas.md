@@ -4,65 +4,63 @@ sidebar_position: 1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Get Started with MongoDB Atlas
+# 1.开始使用 MongoDB Atlas
 
-MongoDB Atlas is a developer data platform, integrating a multi-cloud database with a diverse set of data services. Atlas simplifies database deployment and management while enabling modern data-driven application development.
+MongoDB Atlas是一个开发者数据平台，集成了一个多云数据库和一组多样化的数据服务。Atlas简化了数据库部署和管理，同时支持现代数据驱动的应用程序开发。
 
-## Register a new Atlas account
+## 注册一个新的Atlas账号
 
-You can start by register for MongoDB Atlas:
+你可以从下面链接注册开始MongoDB Atlas之旅:
 
-1. With the [Atlas registration page](https://account.mongodb.com/account/register).
+1. 通过点击 [Atlas registration page](https://account.mongodb.com/account/register).
 
-## Deploy a free cluster
+## 开始部署一个免费集群
 
-Let’s deploy our first forever-free database in MongoDB Atlas! We’ll do that using the Atlas UI, so before starting, make sure you’re logged into your account.
+让我们在 MongoDB Atlas 中部署我们的第一个永久免费数据库！我们将使用 Atlas UI 进行操作，在开始之前，请确保您已经登录到您的账户。
 
-### Use the Web UI @ cloud.mongodb.com
+### 使用浏览器打开并登录[cloud.mongodb.com](https://cloud.mongodb.com/)
 
-1. Click on the **Build a Database** button.
+1. 点击 **Build a Database** 按钮.
 
     <img
-        alt="'Create a database' section in MongoDB Atlas highlighting the 'Build a database' button" 
+        alt="MongoDB Atlas 中 '创建数据库' 部分突出显示 '构建数据库' 按钮"
         src={useBaseUrl('/img/chapter-1-atlas/create-a-database.png')}
         border="1px"
         width="700"
     />
 
-2. Select **M0 Free**, Select a cloud provider and the region closest to your physical location. 
-Rename your cluster to **MyCluster** and hit **Create**.
+2. 选择 **M0 Free**, 选择AWS云提供商和本次实验物理位置最近的地区(us-east-1)。将您的集群重命名为 **MyCluster** 并且点击 **Create**.
 
  <img
-    alt="Cluster type selection page highlighting the shared cluster option"
+    alt="集群类型选择页面，突出显示共享集群选项"
     src={useBaseUrl('/img/chapter-1-atlas/select-cluster-type.png')}
     border="1px"
     width="700"
  />
 
 
-3. Use the following wizard to create a first user and passowrd. Finally take a note of your database user and password.
+3. 使用以下向导创建第一个用户和密码。最后请记下您的数据库用户名和密码。
     <img
-        alt="Security quickstart page highlighting the 'Database' tab in the left-hand menu"
+        alt="安全快速入门页面，突出显示左侧菜单中的 '数据库' 选项卡"
         src={useBaseUrl('/img/chapter-1-atlas/security-quickstart-highlighted-database-button.png')}
         border="1px"
     width="700"
     />
 
-4. To navigate back to your deployments, select **Database** from the left-hand menu.
-Creating the cluster may take a couple of minutes. Once the deployment is complete, you'll see your first cluster in the list!
+4. 要返回到您的部署，请从左侧菜单中选择 **Database** 创建集群可能需要几分钟时间。部署完成后，您将在列表中看到您的第一个集群！
 
  <img
-    alt="The 'Database Deployments' page with a cluster named 'MyCluster'"
+    alt="'数据库部署' 页面，包含名为 'MyCluster' 的集群"
     src={useBaseUrl('/img/chapter-1-atlas/database-deployments.png')}
     border="1px"
     width="700"
  />
 
-5. To navigate back to your deployments, select **Network Access** from the left-hand menu.
-add access list ip "0.0.0.0/0" temporarly whitelisted in the IP Access List.
+5. 要返回到您的部署，请从左侧菜单中选择 **Network Access** .
+添加访问列表 IP"0.0.0.0/0"，暂时将其列入白名单。.
 
  <img
-    alt="The 'Database Deployments' page with a cluster named 'MyCluster'"
+    alt="'数据库部署' 页面，包含名为 'MyCluster' 的集群"
     src={useBaseUrl('/img/chapter-1-atlas/database-accesslist.png')}
     border="1px"
     width="700"

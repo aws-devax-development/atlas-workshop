@@ -5,22 +5,21 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Indexing Basics
+# 2.索引基础知识
 
-In any database, indexes support the efficient execution of queries. Without them, the database must scan every document in a collection or table to select those that match the query statement. If an appropriate index exists for a query, the database can use the index to limit the number of documents it must inspect.
+在任何数据库中，索引都支持高效执行查询。如果没有索引，数据库必须扫描集合或表中的每个文档，以选择与查询语句匹配的文档。如果查询存在合适的索引，则数据库可以使用索引来限制必须检查的文档数量。
 
-MongoDB offers a broad range of [index types and features](https://docs.mongodb.com/manual/indexes) with language-specific sort orders to support complex access patterns to your data. MongoDB indexes can be created and dropped on-demand to accommodate evolving application requirements and query patterns and can be declared on any field within your documents, including fields nested within arrays.
+MongoDB提供广泛的索引[类型和功能](https://docs.mongodb.com/manual/indexes)，具有特定于语言的排序顺序，以支持对数据的复杂访问模式。 MongoDB索引可以根据需求创建和删除，以适应不断变化的应用程序要求和查询模式，并可以声明在文档中的任何字段上，包括嵌套在数组中的字段。
 
-The order of a compound index in MongoDB has a best practices rule called ESR. This rule stands for Equality, Sort and Range field placement in the index definition. 
+MongoDB中复合索引的顺序有一个最佳实践规则，称为ESR。这个规则代表在索引定义中的相等(Equality)、排序(Sort)和范围(Range)字段的放置。
 
-Let's create some indexes for our query.
-
+### 1. 让我们为我们的查询创建一些索引。
 
 <Tabs>
   <TabItem value="data-explorer" label="Data Explorer" default>
 
 
-  Data explorer allows us to create an index by going to the collection "Indexes" tab and creating a new index. Add the fields in the following order to try and cover our query predicts:
+  数据浏览器允许我们通过转到“索引”选项卡并创建一个新索引来创建索引。按以下顺序添加字段以尝试覆盖我们的查询预测：
 
   ```json
   {
@@ -30,7 +29,7 @@ Let's create some indexes for our query.
 }
 ```
 
- 
+
   
    <img
         alt="'Create a database' section in MongoDB Atlas highlighting the 'Build a database' button" 
@@ -45,7 +44,7 @@ Let's create some indexes for our query.
   <TabItem value="compass" label="Compass">
 
 
-  Data explorer allows us to create an index by going to the collection "Indexes" tab and creating a new index. Add the fields in the following order to try and cover our query predicts:
+  数据浏览器允许我们通过转到“索引”选项卡并创建一个新索引来创建索引。按以下顺序添加字段以尝试覆盖我们的查询预测：
 
   ```json
   {
@@ -65,7 +64,7 @@ Let's create some indexes for our query.
   </TabItem>
   <TabItem value="shell" label="MongoDB Shell">
 
-With the shell creating indexes is done via the `createIndex` command:
+使用shell创建索引是通过`createIndex`命令完成的：
 ```js
 
 db.movies.createIndex(  {
@@ -79,14 +78,14 @@ db.movies.createIndex(  {
   </TabItem>
 </Tabs>
 
-Now lets see the explain plans post index creation
+### 2.现在让我们看看索引创建后的执行计划
+
 
 <Tabs>
   <TabItem value="compass" label="Compass">
 
 
- The query now is using an index to minimize the amount of scanned documents, however, the query is still doing an in-memory sort
-
+ 现在查询正在使用索引来最小化扫描文档的数量，但是查询仍在内存中进行排序
 
    <img
     alt="'Create a database' section in MongoDB Atlas highlighting the 'Build a database' button" 
@@ -97,7 +96,8 @@ Now lets see the explain plans post index creation
  
   </TabItem>
   <TabItem value="shell" label="MongoDB Shell">
-If we use the `.explain(true)` output on that query we will see that an index is used (`IXSCAN` stage), however, there is in memory sort.
+
+如果我们在该查询上使用`.explain(true)`输出，我们将看到使用了索引(IXSCAN阶段)，但是存在内存排序。
 
 ```json
  db.movies.find(
@@ -136,13 +136,13 @@ If we use the `.explain(true)` output on that query we will see that an index is
   </TabItem>
 </Tabs>
 
-Lets change the order of the fields to reflect the Equality, Sort and Range order:
+### 3.让我们更改字段的顺序以符合ESR(相等、排序和范围)顺序：
 
 <Tabs>
   <TabItem value="compass" label="Compass">
 
 
-  To follow the ESR rule lets use the  order according to our query `cast - Equality`, `title- Sort` and last `year - Range`:
+要遵循ESR规则，让我们按照我们的查询`cast-相等`、`title-排序`和最后`year-范围`的顺序使用如下顺序：
 
   ```json
 {
@@ -152,7 +152,7 @@ Lets change the order of the fields to reflect the Equality, Sort and Range orde
 }
 ```
 
-And drop the previous index.
+并删除以前的索引。
 
    <img
     alt="'Create a database' section in MongoDB Atlas highlighting the 'Build a database' button" 
@@ -164,7 +164,8 @@ And drop the previous index.
   </TabItem>
   <TabItem value="shell" label="MongoDB Shell">
 
- To follow the ESR rule lets use the  order according to our query `cast - Equality`, `title- Sort` and last `year - Range`:
+ 要遵循ESR规则，让我们按照我们的查询`cast-相等`、`title-排序`和最后`year-范围`的顺序使用如下顺序：
+
 ```js
 
 db.movies.createIndex(  {
@@ -214,4 +215,4 @@ db.movies.dropIndex({
   </TabItem>
 </Tabs>
 
-As you can see only an index is used and no sort stage is present.
+### 4.恭喜！！正如您所看到的，查询仅使用索引，没有排序阶段。

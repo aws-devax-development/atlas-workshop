@@ -5,13 +5,14 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Explain Plans
+# 1.索引的执行计划
 
 <Tabs>
  
 <TabItem value="compass" label="Compass">
 
-When compass is open on `sample_mflix` database and set on `movies` collection, lets run a query to work with and analyse its explain plan:
+当用Compass在`sample_mflix`数据库上打开并设置为`movies`集合时，让我们运行一个查询来分析它的执行计划:
+
 #### Filter : 
 ```json
 	{
@@ -23,7 +24,7 @@ When compass is open on `sample_mflix` database and set on `movies` collection, 
 ```json
 	{"title": 1}
 ```
- #### Preview
+ #### 预览
 
    <img
     alt="'Create a database' section in MongoDB Atlas highlighting the 'Build a database' button" 
@@ -31,7 +32,7 @@ When compass is open on `sample_mflix` database and set on `movies` collection, 
     border="1px"
 />
 
-Now lets review the "Explain Plan" tab. You should observe that the query is using a `COLLSCAN` to go through all the available documents. In memory sort is being applied and ` No index available for this query.`
+现在让我们查看“Explain Plan”选项卡。您应该可以观察到查询正在使用 `COLLSCAN` 通过所有可用文档。正在应用内存排序，并且 `No index available for this query`.
 
    <img
     alt="'Create a database' section in MongoDB Atlas highlighting the 'Build a database' button" 
@@ -41,7 +42,8 @@ Now lets review the "Explain Plan" tab. You should observe that the query is usi
 
   </TabItem>
   <TabItem value="shell" label="MongoDB Shell">
-When logged into our Atlas cluster, lets identify a query to work with and analyse its explain plan
+
+当我们登录到我们的Atlas群集时，让我们确定要使用并分析其查询计划的查询
 
 ```json
 use sample_mflix
@@ -56,8 +58,7 @@ db.movies.find(
 	{"title": 1}
 )
 ```
-
-If we use the `.explain(true)` output on that query we will see no index is used with `COLLSCAN` plan chosen
+如果我们在该查询上使用 `.explain(true)` 输出，我们将看到没有使用索引，并选择了 `COLLSCAN` 计划
 ```json
  db.movies.find(
 	{
@@ -128,5 +129,5 @@ If we use the `.explain(true)` output on that query we will see no index is used
   </TabItem>
 </Tabs>
 
-Lets learn how indexes can speedup our queries and lower the database utilisation overhead.
+接下来，让我们学习如何使用索引加快查询速度并降低数据库利用率开销。
 

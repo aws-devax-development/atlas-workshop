@@ -1,55 +1,55 @@
 {
-  "/markdown-page-e60": {
+  "/atlas-workshop/markdown-page-ab8": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "7beeab8a"
     },
     "content": "393be207"
   },
-  "/docs-e8d": {
+  "/atlas-workshop/docs-031": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "91331f2e"
     },
     "versionMetadata": "935f2afb"
   },
-  "/docs/access-your-cluster/access-the-atlas-cluster-3f7": {
+  "/atlas-workshop/docs/access-your-cluster/access-the-atlas-cluster-2dc": {
     "__comp": "17896441",
     "content": "4b36de3e"
   },
-  "/docs/category/access-your-cluster---excersize-two-29a": {
+  "/atlas-workshop/docs/category/练习a-开始使用atlas-cef": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "6683b97d"
+    "categoryGeneratedIndex": "1c849391"
   },
-  "/docs/category/get-started-with-atlas---excersize-one-722": {
+  "/atlas-workshop/docs/category/练习b-访问您的atlas集群-9cc": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "cefb88c5"
+    "categoryGeneratedIndex": "1cf0394e"
   },
-  "/docs/category/indexing-and-explain-plans---excersize-three-f42": {
+  "/atlas-workshop/docs/category/练习c-索引与执行计划-bc8": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "019149a2"
+    "categoryGeneratedIndex": "37229c99"
   },
-  "/docs/indexing-basics/-23f": {
+  "/atlas-workshop/docs/indexing-basics/-071": {
     "__comp": "17896441",
     "content": "3082f756"
   },
-  "/docs/indexing-basics/explain-plans-6a7": {
+  "/atlas-workshop/docs/indexing-basics/explain-plans-a48": {
     "__comp": "17896441",
     "content": "2735ef22"
   },
-  "/docs/intro-aed": {
+  "/atlas-workshop/docs/intro-b1f": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/setting-up-atlas/create-your-first-datasets-891": {
+  "/atlas-workshop/docs/setting-up-atlas/create-your-first-datasets-27a": {
     "__comp": "17896441",
     "content": "928cdd22"
   },
-  "/docs/setting-up-atlas/get-started-atlas-787": {
+  "/atlas-workshop/docs/setting-up-atlas/get-started-atlas-547": {
     "__comp": "17896441",
     "content": "ec702251"
   },
-  "/-72a": {
+  "/atlas-workshop/-f20": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "7beeab8a"

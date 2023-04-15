@@ -1,12 +1,12 @@
 {
   "unversionedId": "access-your-cluster/access-the-atlas-cluster",
   "id": "access-your-cluster/access-the-atlas-cluster",
-  "title": "Access your cluster",
-  "description": "Data Explorer is enabled by default and is accsessible via the Browse Collections button on the cluster tile, or Collections tab on the cluster view.",
+  "title": "1.访问您的集群",
+  "description": "数据浏览器是默认启用的，可通过集群视图上的Collections选项卡访问。",
   "source": "@site/docs/access-your-cluster/access-the-atlas-cluster.md",
   "sourceDirName": "access-your-cluster",
   "slug": "/access-your-cluster/access-the-atlas-cluster",
-  "permalink": "/docs/access-your-cluster/access-the-atlas-cluster",
+  "permalink": "/atlas-workshop/docs/access-your-cluster/access-the-atlas-cluster",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/access-your-cluster/access-the-atlas-cluster.md",
   "tags": [],
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Access Your Cluster - Excersize Two",
-    "permalink": "/docs/category/access-your-cluster---excersize-two"
+    "title": "练习B: 访问您的Atlas集群",
+    "permalink": "/atlas-workshop/docs/category/练习b-访问您的atlas集群"
   },
   "next": {
-    "title": "Indexing and Explain Plans - Excersize Three",
-    "permalink": "/docs/category/indexing-and-explain-plans---excersize-three"
+    "title": "练习C: 索引与执行计划",
+    "permalink": "/atlas-workshop/docs/category/练习c-索引与执行计划"
   }
 }

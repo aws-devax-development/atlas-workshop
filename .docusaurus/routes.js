@@ -3,73 +3,73 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'e60'),
+    path: '/atlas-workshop/markdown-page',
+    component: ComponentCreator('/atlas-workshop/markdown-page', 'ab8'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'e8d'),
+    path: '/atlas-workshop/docs',
+    component: ComponentCreator('/atlas-workshop/docs', '031'),
     routes: [
       {
-        path: '/docs/access-your-cluster/access-the-atlas-cluster',
-        component: ComponentCreator('/docs/access-your-cluster/access-the-atlas-cluster', '3f7'),
+        path: '/atlas-workshop/docs/access-your-cluster/access-the-atlas-cluster',
+        component: ComponentCreator('/atlas-workshop/docs/access-your-cluster/access-the-atlas-cluster', '2dc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/access-your-cluster---excersize-two',
-        component: ComponentCreator('/docs/category/access-your-cluster---excersize-two', '29a'),
+        path: '/atlas-workshop/docs/category/练习a-开始使用atlas',
+        component: ComponentCreator('/atlas-workshop/docs/category/练习a-开始使用atlas', 'cef'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/get-started-with-atlas---excersize-one',
-        component: ComponentCreator('/docs/category/get-started-with-atlas---excersize-one', '722'),
+        path: '/atlas-workshop/docs/category/练习b-访问您的atlas集群',
+        component: ComponentCreator('/atlas-workshop/docs/category/练习b-访问您的atlas集群', '9cc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/indexing-and-explain-plans---excersize-three',
-        component: ComponentCreator('/docs/category/indexing-and-explain-plans---excersize-three', 'f42'),
+        path: '/atlas-workshop/docs/category/练习c-索引与执行计划',
+        component: ComponentCreator('/atlas-workshop/docs/category/练习c-索引与执行计划', 'bc8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/indexing-basics/',
-        component: ComponentCreator('/docs/indexing-basics/', '23f'),
+        path: '/atlas-workshop/docs/indexing-basics/',
+        component: ComponentCreator('/atlas-workshop/docs/indexing-basics/', '071'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/indexing-basics/explain-plans',
-        component: ComponentCreator('/docs/indexing-basics/explain-plans', '6a7'),
+        path: '/atlas-workshop/docs/indexing-basics/explain-plans',
+        component: ComponentCreator('/atlas-workshop/docs/indexing-basics/explain-plans', 'a48'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/atlas-workshop/docs/intro',
+        component: ComponentCreator('/atlas-workshop/docs/intro', 'b1f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/setting-up-atlas/create-your-first-datasets',
-        component: ComponentCreator('/docs/setting-up-atlas/create-your-first-datasets', '891'),
+        path: '/atlas-workshop/docs/setting-up-atlas/create-your-first-datasets',
+        component: ComponentCreator('/atlas-workshop/docs/setting-up-atlas/create-your-first-datasets', '27a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/setting-up-atlas/get-started-atlas',
-        component: ComponentCreator('/docs/setting-up-atlas/get-started-atlas', '787'),
+        path: '/atlas-workshop/docs/setting-up-atlas/get-started-atlas',
+        component: ComponentCreator('/atlas-workshop/docs/setting-up-atlas/get-started-atlas', '547'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '72a'),
+    path: '/atlas-workshop/',
+    component: ComponentCreator('/atlas-workshop/', 'f20'),
     exact: true
   },
   {

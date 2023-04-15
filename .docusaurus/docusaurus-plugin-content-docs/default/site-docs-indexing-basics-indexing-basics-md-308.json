@@ -1,12 +1,12 @@
 {
   "unversionedId": "indexing-basics/indexing-basics",
   "id": "indexing-basics/indexing-basics",
-  "title": "Indexing Basics",
-  "description": "In any database, indexes support the efficient execution of queries. Without them, the database must scan every document in a collection or table to select those that match the query statement. If an appropriate index exists for a query, the database can use the index to limit the number of documents it must inspect.",
+  "title": "2.索引基础知识",
+  "description": "在任何数据库中，索引都支持高效执行查询。如果没有索引，数据库必须扫描集合或表中的每个文档，以选择与查询语句匹配的文档。如果查询存在合适的索引，则数据库可以使用索引来限制必须检查的文档数量。",
   "source": "@site/docs/indexing-basics/indexing-basics.md",
   "sourceDirName": "indexing-basics",
   "slug": "/indexing-basics/",
-  "permalink": "/docs/indexing-basics/",
+  "permalink": "/atlas-workshop/docs/indexing-basics/",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/indexing-basics/indexing-basics.md",
   "tags": [],
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Explain Plans",
-    "permalink": "/docs/indexing-basics/explain-plans"
+    "title": "1.索引的执行计划",
+    "permalink": "/atlas-workshop/docs/indexing-basics/explain-plans"
   }
 }
