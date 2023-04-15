@@ -8,7 +8,7 @@ const FeatureList = [
     illustration: 'img/database.png',
     description: (
       <>
-        将您的应用程序部署到AWS、Azure和谷歌cloud上多个区域的多个云平台上，
+        将您的应用程序轻松部署到AWS、Azure和Google Cloud上多个区域的多个云平台上，
         目前Atlas已经支持全球超过100个公有云Region。
       </>
     ),
