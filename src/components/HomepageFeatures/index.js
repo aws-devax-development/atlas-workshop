@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '真正的多云、多区域的云数据库服务',
+    title: '多云、多区域的云数据库服务提供者',
     illustration: 'img/database.png',
     description: (
       <>
-        将您的应用程序轻松部署到AWS、Azure和Google Cloud上多个区域的多个云平台上，
-        目前Atlas已经支持全球超过100个公有云Region。
+        Atlas支持将您的应用部署到AWS、Azure和Google Cloud上的多个区域的多个云平台上。目前，Atlas已经支持全球超过100个公有云Region。
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     illustration: 'img/app-services.png',
     description: (
       <>
-        使用完全托管的云服务(如函数、触发器和api)，仅需少量的时间就可以在Atlas上构建和运行可用于生产的应用程序。
-        
+        Atlas提供完全托管的云服务，包括函数、触发器和API等。只需要花费很少的时间，即可在Atlas上构建并运行生产级应用程序。。
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     illustration: 'img/analytics.png',
     description: (
       <>
-        在数十种驱动程序和语言上利用丰富的查询api，包括Node.js, Java, Python和Go。
-
+        利用包括Node.js、Java、Python和Go在内的数十种驱动程序和语言的丰富查询API。
       </>
     ),
   },
