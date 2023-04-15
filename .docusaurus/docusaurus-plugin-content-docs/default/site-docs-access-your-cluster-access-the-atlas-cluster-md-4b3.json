@@ -1,7 +1,7 @@
 {
   "unversionedId": "access-your-cluster/access-the-atlas-cluster",
   "id": "access-your-cluster/access-the-atlas-cluster",
-  "title": "1.访问您的集群",
+  "title": "1. 访问您的集群",
   "description": "数据浏览器是默认启用的，可通过集群视图上的Collections选项卡访问。",
   "source": "@site/docs/access-your-cluster/access-the-atlas-cluster.md",
   "sourceDirName": "access-your-cluster",

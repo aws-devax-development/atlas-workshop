@@ -5,11 +5,11 @@
   "permalink": "/atlas-workshop/docs/category/练习b-访问您的atlas集群",
   "navigation": {
     "previous": {
-      "title": "2.加载样例数据到 MyCluster",
+      "title": "2. 加载样例数据到 MyCluster",
       "permalink": "/atlas-workshop/docs/setting-up-atlas/create-your-first-datasets"
     },
     "next": {
-      "title": "1.访问您的集群",
+      "title": "1. 访问您的集群",
       "permalink": "/atlas-workshop/docs/access-your-cluster/access-the-atlas-cluster"
     }
   }

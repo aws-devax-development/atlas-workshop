@@ -1,7 +1,7 @@
 {
   "unversionedId": "indexing-basics/explain-plans",
   "id": "indexing-basics/explain-plans",
-  "title": "1.索引的执行计划",
+  "title": "1. 索引的执行计划",
   "description": "当用Compass在sample_mflix数据库上打开并设置为movies集合时，让我们运行一个查询来分析它的执行计划:",
   "source": "@site/docs/indexing-basics/explain-plans.md",
   "sourceDirName": "indexing-basics",
@@ -21,7 +21,7 @@
     "permalink": "/atlas-workshop/docs/category/练习c-索引与执行计划"
   },
   "next": {
-    "title": "2.索引基础知识",
+    "title": "2. 索引基础知识",
     "permalink": "/atlas-workshop/docs/indexing-basics/"
   }
 }

@@ -5,7 +5,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# 1.访问您的集群
+# 1. 访问您的集群
 
 <Tabs>
   <TabItem value="data-explorer" label="1. Data Explorer" default>

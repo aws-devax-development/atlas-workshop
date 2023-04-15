@@ -5,11 +5,11 @@
   "permalink": "/atlas-workshop/docs/category/练习c-索引与执行计划",
   "navigation": {
     "previous": {
-      "title": "1.访问您的集群",
+      "title": "1. 访问您的集群",
       "permalink": "/atlas-workshop/docs/access-your-cluster/access-the-atlas-cluster"
     },
     "next": {
-      "title": "1.索引的执行计划",
+      "title": "1. 索引的执行计划",
       "permalink": "/atlas-workshop/docs/indexing-basics/explain-plans"
     }
   }

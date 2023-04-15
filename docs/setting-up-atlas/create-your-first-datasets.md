@@ -4,7 +4,7 @@ sidebar_position: 2
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# 2.加载样例数据到 MyCluster
+# 2. 加载样例数据到 MyCluster
 
 与 MongoDB 集群进行交互可以通过多种方式完成，包括  **以下几种方式**:
 

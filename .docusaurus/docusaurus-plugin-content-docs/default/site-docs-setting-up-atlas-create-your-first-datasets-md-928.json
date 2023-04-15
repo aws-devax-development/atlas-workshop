@@ -1,7 +1,7 @@
 {
   "unversionedId": "setting-up-atlas/create-your-first-datasets",
   "id": "setting-up-atlas/create-your-first-datasets",
-  "title": "2.加载样例数据到 MyCluster",
+  "title": "2. 加载样例数据到 MyCluster",
   "description": "与 MongoDB 集群进行交互可以通过多种方式完成，包括  以下几种方式:",
   "source": "@site/docs/setting-up-atlas/create-your-first-datasets.md",
   "sourceDirName": "setting-up-atlas",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "1.开始使用 MongoDB Atlas",
+    "title": "1. 开始使用 MongoDB Atlas",
     "permalink": "/atlas-workshop/docs/setting-up-atlas/get-started-atlas"
   },
   "next": {

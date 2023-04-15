@@ -5,7 +5,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# 1.索引的执行计划
+# 1. 索引的执行计划
 
 <Tabs>
  

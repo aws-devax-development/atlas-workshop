@@ -4,7 +4,7 @@ sidebar_position: 1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# 1.开始使用 MongoDB Atlas
+# 1. 开始使用 MongoDB Atlas
 
 MongoDB Atlas是一个开发者数据平台，集成了一个多云数据库和一组多样化的数据服务。Atlas简化了数据库部署和管理，同时支持现代数据驱动的应用程序开发。
 

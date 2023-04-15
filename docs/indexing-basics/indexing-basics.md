@@ -5,7 +5,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# 2.索引基础知识
+# 2. 索引基础知识
 
 在任何数据库中，索引都支持高效执行查询。如果没有索引，数据库必须扫描集合或表中的每个文档，以选择与查询语句匹配的文档。如果查询存在合适的索引，则数据库可以使用索引来限制必须检查的文档数量。
 
